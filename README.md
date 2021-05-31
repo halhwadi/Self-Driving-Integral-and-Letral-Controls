@@ -4,7 +4,7 @@
 
 **Lateral Control:**
 
-![](RackMultipart20210531-4-t4z3qj_html_a5fead581ceb8595.png)
+![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/Steer%20_%20final%20equation.jpg)
 
 **Results:**
 
