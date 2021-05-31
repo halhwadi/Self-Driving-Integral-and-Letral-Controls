@@ -1,8 +1,5 @@
 
 
-This solution differs than this one explained at end of course...I can achived **Total Score: 97,74%**
-
-<br>
 
 [**Solution link**](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/controller2d.py)
 
