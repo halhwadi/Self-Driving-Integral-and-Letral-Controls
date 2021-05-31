@@ -10,6 +10,6 @@
 
 **Total Score: 97,74%**
 
-![](RackMultipart20210531-4-t4z3qj_html_5f63d3681e72ee6c.png)
+![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/final%20Assignment%20_%20trajecory.jpg)
 
 ![](RackMultipart20210531-4-t4z3qj_html_5877e08e5cf78e63.png)
