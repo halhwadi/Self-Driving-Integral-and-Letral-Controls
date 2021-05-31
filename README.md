@@ -8,11 +8,11 @@ This solution differs than this one explained at end of course...I can achived *
 
 <br>
 
-**Longitudinal Control:**
+**Longitudinal Control Equation:**
 
 ![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/Throttle%20_%20final%20equation.jpg)
 
-**Lateral Control:**
+**Lateral Control Equation:**
 
 ![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/Steer%20_%20final%20equation.jpg)
 
