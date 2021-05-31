@@ -1,6 +1,6 @@
 **Longitudinal Control:**
 
-![](RackMultipart20210531-4-t4z3qj_html_b9e4f3acb6579e79.png)
+![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/Throttle%20_%20final%20equation.jpg)
 
 **Lateral Control:**
 
