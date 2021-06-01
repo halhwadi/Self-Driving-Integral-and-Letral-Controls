@@ -7,7 +7,7 @@
 
 **Longitudinal Control Equation:**
 
-![](https://github.com/halhwadi/Self-Driving-First-Assignment-Solution/blob/main/Throttle%20_%20final%20equation.jpg)
+![](https://github.com/halhwadi/Vehicle-Longitudinal-and-Lateral-Control/blob/main/Throttle%20_%20final%20equation.jpg)
 
 **Lateral Control Equation:**
 
