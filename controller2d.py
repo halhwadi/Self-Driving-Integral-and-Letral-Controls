@@ -174,7 +174,9 @@ class Controller2D(object):
                 access the persistent variables declared above here. For
                 example, can treat self.vars.v_previous like a "global variable".
             """
-                        
+            throttle_output = 0.0
+            brake_output = 0.0
+            
             delta_t = t - self.vars.t_last
             
             if v_desired == v:
@@ -182,7 +184,7 @@ class Controller2D(object):
                 if self.vars.throttle_output_previous == 0:
                     throttle_output = 0.1
                 else:
-                    throttle_output = (self.vars.throttle_output_previous) # + (self.vars.throttle_output_previous * delta_t)
+                    throttle_output = (self.vars.throttle_output_previous) # maintain the speed...
                     
             
             elif v_desired > v:
@@ -190,7 +192,7 @@ class Controller2D(object):
                 if self.vars.throttle_output_previous == 0:
                     throttle_output = 0.5
                 else:
-                    throttle_output = (( 1 + ((v_desired - v) / v_desired) ) * self.vars.throttle_output_previous) + (self.vars.throttle_output_previous * delta_t)
+                    throttle_output = (( 1 + ((v_desired - v) / v_desired) ) * self.vars.throttle_output_previous) + (self.vars.throttle_output_previous * delta_t) + ( (v_desired - v) / delta_t)
                     
                 
             else:
@@ -198,7 +200,7 @@ class Controller2D(object):
                 if self.vars.brake_output_previous == 0:
                     break_output = 0.1
                 else:
-                    brake_output = (( 1 + ((v - v_desired)/v) ) * self.vars.brake_output_previous) + (self.vars.brake_output_previous * delta_t)
+                    brake_output = (( 1 + ((v - v_desired)/v) ) * self.vars.brake_output_previous) + (self.vars.brake_output_previous * delta_t) + ((v - v_desired) / delta_t)
                 
                 
                 
