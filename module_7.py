@@ -1,14 +1,5 @@
-#!/usr/bin/env python3
-
-# This work is licensed under the terms of the MIT license.
-# For a copy, see <https://opensource.org/licenses/MIT>.
 
 """
-CARLA waypoint follower assessment client script.
-
-A controller assessment to follow a given trajectory, where the trajectory
-can be defined using way-points.
-
 STARTING in a moment...
 """
 from __future__ import print_function
